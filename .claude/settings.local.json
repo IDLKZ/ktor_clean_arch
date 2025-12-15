@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(ls -la \"D:\\projects\\ktor_back\\src\\main\\kotlin\\di\"\" 2>/dev/null || echo \"DI directory empty or not accessible \")",
+      "Bash(ls -la \"D:\\projects\\ktor_back\\src\\main\\kotlin\\config\"\" 2>/dev/null || echo \"Config directory empty or not accessible \")",
+      "Bash(mkdir:*)",
+      "Bash(./gradlew build:*)",
+      "Bash(./gradlew clean build:*)",
+      "Bash(timeout 10 ./gradlew run:*)",
+      "Bash(timeout 15 ./gradlew run:*)",
+      "Bash(timeout 20 ./gradlew run:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

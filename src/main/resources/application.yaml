@@ -35,3 +35,25 @@ flyway:
   locations: "classpath:db/migration"
   baselineOnMigrate: true
   validateOnMigrate: true
+
+# Файловый сервис
+storage:
+  uploadDir: "uploads"
+  maxFileSizeMb: 10
+  allowedExtensions:
+    - jpg
+    - jpeg
+    - png
+    - gif
+    - pdf
+    - doc
+    - docx
+    - xls
+    - xlsx
+  forbiddenExtensions:
+    - exe
+    - bat
+    - sh
+    - cmd
+    - ps1
+    - jar
